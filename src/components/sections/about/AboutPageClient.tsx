@@ -74,7 +74,7 @@ export function AboutPageClient() {
               className="relative"
               initial={shouldReduceMotion ? {} : { opacity: 0, x: -40 }}
               animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
+              transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] as const }}
             >
               <div className="relative h-[600px] overflow-hidden">
                 <Image

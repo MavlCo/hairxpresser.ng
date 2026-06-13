@@ -20,7 +20,7 @@ export function FounderSection() {
             initial={shouldReduceMotion ? {} : { opacity: 0, x: -40 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] as const }}
           >
             <div className="relative h-[550px] overflow-hidden">
               <Image
@@ -40,7 +40,7 @@ export function FounderSection() {
             initial={shouldReduceMotion ? {} : { opacity: 0, x: 40 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1], delay: 0.2 }}
+            transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] as const, delay: 0.2 }}
           >
             <p className="font-flourish text-gold text-3xl mb-1">
               Dorcas Ade Akanbi
