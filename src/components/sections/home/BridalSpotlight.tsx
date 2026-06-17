@@ -22,7 +22,7 @@ export function BridalSpotlight() {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            Bridal
+            Bridals
           </motion.p>
 
           <motion.h2
@@ -52,8 +52,8 @@ export function BridalSpotlight() {
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            Your wedding day deserves flawless hair. From the bridal trial to
-            your big day, Dorcas brings her signature artistry and attention
+            Your wedding day deserves flawless hair. From the bridals trial to
+            your big day, Dorcas Ade-Akanbi brings her signature artistry and attention
             to detail — whether you&apos;re at our salon or she travels to your venue.
           </motion.p>
 
@@ -79,16 +79,16 @@ export function BridalSpotlight() {
               href={BRAND.whatsappLink}
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Book your bridal hair trial on WhatsApp"
+              aria-label="Book your bridals hair trial on WhatsApp"
               className="inline-flex items-center justify-center gap-2 bg-gold text-onyx font-semibold px-8 py-4 hover:bg-gold-dark transition-all duration-300 hover:-translate-y-0.5"
             >
-              Book Your Bridal Trial
+              Book Your Bridals Trial
             </a>
             <a
               href="/bridal"
               className="inline-flex items-center justify-center gap-2 border border-ivory/30 text-ivory font-medium px-8 py-4 hover:border-ivory/60 transition-all duration-300"
             >
-              View Bridal Services
+              View Bridals Services
             </a>
           </motion.div>
         </div>
@@ -113,7 +113,7 @@ export function BridalSpotlight() {
             transition={{ duration: 0.5, delay: 0.6 }}
           >
             <p className="text-onyx text-xs font-semibold uppercase tracking-widest">
-              Bridal Specialist
+              Bridals Specialist
             </p>
             <p className="text-onyx font-display font-bold text-lg">
               Ilorin & Travel

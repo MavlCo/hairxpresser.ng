@@ -55,13 +55,13 @@ export function CTABand() {
             href={BRAND.whatsappLink}
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="Book your appointment on WhatsApp"
+            aria-label="Shop wigs on WhatsApp"
             className="inline-flex items-center gap-3 bg-onyx text-ivory font-semibold text-lg px-10 py-5 hover:bg-charcoal transition-colors duration-300"
             whileHover={shouldReduceMotion ? {} : { scale: 1.02, y: -2 }}
             whileTap={{ scale: 0.98 }}
           >
             <MessageCircle className="w-6 h-6" aria-hidden="true" />
-            Book on WhatsApp
+            Shop Wigs
           </motion.a>
         </motion.div>
       </div>

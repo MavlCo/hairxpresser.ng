@@ -121,7 +121,7 @@ export function StrandsPageClient() {
               transition={{ delay: 0.1 }}
             >
               Strands by HX is the premium hair product arm of Hairxpresser.NG.
-              Curated by Dorcas Ade Akanbi, our collection features high-quality
+              Curated by Dorcas Ade-Akanbi, our collection features high-quality
               wigs, extensions, and hair accessories — selected with the same
               attention to detail as our salon services.
             </motion.p>

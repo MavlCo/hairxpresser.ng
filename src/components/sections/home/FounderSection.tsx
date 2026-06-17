@@ -25,7 +25,7 @@ export function FounderSection() {
             <div className="relative h-[550px] overflow-hidden">
               <Image
                 src="/images/client-lace-front-smile.jpeg"
-                alt="Dorcas Ade Akanbi — Founder and Lead Stylist at Hairxpresser.NG"
+                alt="Dorcas Ade-Akanbi — Founder and Lead Stylist at Hairxpresser.NG"
                 fill
                 className="object-cover object-top"
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -43,7 +43,7 @@ export function FounderSection() {
             transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] as const, delay: 0.2 }}
           >
             <p className="font-flourish text-gold text-3xl mb-1">
-              Dorcas Ade Akanbi
+              Dorcas Ade-Akanbi
             </p>
             <h2
               id="founder-heading"
@@ -56,7 +56,7 @@ export function FounderSection() {
 
             <p className="text-onyx/70 leading-relaxed mb-4">
               Born with a passion for beauty and a vision for transformation,
-              Dorcas built Hairxpresser.NG from the ground up in Ilorin, Kwara
+              Dorcas Ade-Akanbi built Hairxpresser.NG from the ground up in Ilorin, Kwara
               State. What started as a love for perfecting hair grew into one of
               the city&apos;s most trusted premium salons.
             </p>
@@ -74,7 +74,7 @@ export function FounderSection() {
                 hair — I help people show the world their best selves.&rdquo;
               </p>
               <footer className="text-gold text-sm font-medium mt-2">
-                — Dorcas Ade Akanbi
+                — Dorcas Ade-Akanbi
               </footer>
             </blockquote>
 

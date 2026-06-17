@@ -5,12 +5,12 @@ import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
 import Image from "next/image";
 import { GALLERY_IMAGES } from "@/lib/constants";
 
-type Category = "All" | "Bridal" | "Frontals" | "Wigs" | "Revamp" | "Styling";
+type Category = "All" | "Bridals" | "Wig Installation" | "Wigs" | "Revamp" | "Styling";
 
 const categories: Category[] = [
   "All",
-  "Bridal",
-  "Frontals",
+  "Bridals",
+  "Wig Installation",
   "Wigs",
   "Revamp",
   "Styling",

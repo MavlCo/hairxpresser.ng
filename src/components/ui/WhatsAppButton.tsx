@@ -17,7 +17,7 @@ export function WhatsAppButton() {
       >
         {/* Tooltip */}
         <span className="absolute right-full mr-3 top-1/2 -translate-y-1/2 bg-onyx text-ivory text-sm font-medium px-3 py-1.5 whitespace-nowrap opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none">
-          Book on WhatsApp
+          Shop Wigs
         </span>
 
         {/* Pulsing ring */}
@@ -33,7 +33,7 @@ export function WhatsAppButton() {
           href={BRAND.whatsappLink}
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Book on WhatsApp"
+          aria-label="Shop Wigs on WhatsApp"
           className="relative flex items-center justify-center w-14 h-14 rounded-full bg-green-500 text-white shadow-[0_4px_20px_rgba(34,197,94,0.4)] hover:bg-green-600 transition-colors duration-300"
           animate={
             shouldReduceMotion

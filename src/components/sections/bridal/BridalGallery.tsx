@@ -47,7 +47,7 @@ export function BridalGallery() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          Bridal Inspiration Gallery
+          Bridals Inspiration Gallery
         </motion.h2>
 
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">

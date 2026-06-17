@@ -7,9 +7,9 @@ import { CTABand } from "@/components/sections/home/CTABand";
 import { BridalGallery } from "@/components/sections/bridal/BridalGallery";
 
 export const metadata: Metadata = {
-  title: "Bridal Hair Styling — Hairxpresser.NG",
+  title: "Bridals Hair Styling — Hairxpresser.NG",
   description:
-    "Flawless bridal hair styling in Ilorin, Nigeria. From bridal trials to wedding day styling and travel. Book your date with Hairxpresser.NG today.",
+    "Flawless bridals hair styling in Ilorin, Nigeria. From bridals trials to wedding day styling and travel. Book your date with Hairxpresser.NG today.",
 };
 
 export default function BridalPage() {

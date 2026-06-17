@@ -94,10 +94,10 @@ export function Navbar() {
           href={BRAND.whatsappLink}
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="Book on WhatsApp"
+          aria-label="Shop Wigs on WhatsApp"
           className="hidden lg:inline-flex items-center gap-2 bg-gold text-onyx text-sm font-semibold px-6 py-3 hover:bg-gold-dark transition-colors duration-300"
         >
-          Book on WhatsApp
+          Shop Wigs
         </a>
 
         {/* Mobile hamburger */}
@@ -153,7 +153,7 @@ export function Navbar() {
                   className="block w-full text-center bg-gold text-onyx font-semibold py-4"
                   onClick={() => setMenuOpen(false)}
                 >
-                  Book on WhatsApp
+                  Shop Wigs
                 </a>
               </motion.div>
             </nav>

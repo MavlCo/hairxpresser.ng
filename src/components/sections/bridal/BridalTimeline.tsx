@@ -12,7 +12,7 @@ const steps = [
   },
   {
     step: "02",
-    title: "Bridal Hair Trial",
+    title: "Bridals Hair Trial",
     description:
       "A full practice session at our salon where we create your chosen style, make adjustments, and document every detail.",
     timing: "1–2 weeks before",
@@ -60,7 +60,7 @@ export function BridalTimeline() {
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
           >
-            The Bridal Experience
+            The Bridals Experience
           </motion.h2>
         </div>
 

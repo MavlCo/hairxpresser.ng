@@ -5,11 +5,14 @@ import { BRAND, NAV_LINKS } from "@/lib/constants";
 
 export function Footer() {
   const serviceLinks = [
-    { label: "Pro Salon", href: "/services#pro-salon" },
-    { label: "Bridal Styling", href: "/bridal" },
-    { label: "Frontals & Wigs", href: "/services#frontals-wigs" },
-    { label: "Wig Revamping", href: "/services#wig-revamping" },
-    { label: "Training Academy", href: "/academy" },
+    { label: "Bridals", href: "/bridal" },
+    { label: "Wigs", href: "/services#wigs" },
+    { label: "Wig Maintenance & Revamp", href: "/services#wig-maintenance-revamp" },
+    { label: "Wig Construction & Reconstruction", href: "/services#wig-construction" },
+    { label: "Lace Repair & Ventilation", href: "/services#lace-services" },
+    { label: "Wig Styling & Installation", href: "/services#wig-styling-installation" },
+    { label: "Hairstyling", href: "/services#hairstyling" },
+    { label: "One-on-One Training", href: "/services#training" },
     { label: "Strands by HX", href: "/strands" },
   ];
 

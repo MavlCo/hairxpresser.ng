@@ -21,7 +21,7 @@ const reasons = [
     icon: GraduationCap,
     title: "Training-Backed Expertise",
     description:
-      "Dorcas doesn't just style — she teaches. Her training academy ensures every technique is mastered to perfection.",
+      "Dorcas Ade-Akanbi doesn't just style — she teaches. Her training academy ensures every technique is mastered to perfection.",
   },
   {
     icon: Clock,

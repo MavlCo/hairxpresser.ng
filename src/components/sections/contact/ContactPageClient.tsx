@@ -14,11 +14,14 @@ import { BRAND, BUSINESS_HOURS } from "@/lib/constants";
 import { buildWhatsAppMessage } from "@/lib/utils";
 
 const SERVICES_OPTIONS = [
-  "Pro Salon",
-  "Bridal Styling",
-  "Frontals & Wigs",
-  "Wig Revamping",
-  "Training Academy",
+  "Bridals",
+  "Wigs",
+  "Wig Maintenance & Revamp",
+  "Wig Construction & Reconstruction",
+  "Lace Repair & Ventilation",
+  "Wig Styling & Installation",
+  "Hairstyling",
+  "One-on-One Training",
   "Strands by HX",
   "Other",
 ];

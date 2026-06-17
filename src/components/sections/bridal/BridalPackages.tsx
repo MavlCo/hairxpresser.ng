@@ -19,7 +19,7 @@ const packages = [
     highlight: false,
   },
   {
-    name: "Bridal Day",
+    name: "Bridals Day",
     subtitle: "Your wedding, perfected",
     features: [
       "Everything in Trial Session",
@@ -29,14 +29,14 @@ const packages = [
       "On-call for reception touch-up",
       "Priority scheduling",
     ],
-    cta: "Book Bridal Day",
+    cta: "Book Bridals Day",
     highlight: true,
   },
   {
-    name: "Bridal Party",
+    name: "Bridals Party",
     subtitle: "The full celebration",
     features: [
-      "Everything in Bridal Day",
+      "Everything in Bridals Day",
       "Bridesmaid styling (up to 4)",
       "Flower girl styling",
       "Extended travel radius",
@@ -76,7 +76,7 @@ export function BridalPackages() {
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
           >
-            Bridal Packages
+            Bridals Packages
           </motion.h2>
           <motion.p
             className="text-onyx/60 mt-4 max-w-xl mx-auto"

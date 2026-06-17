@@ -42,8 +42,8 @@ const milestones = [
   },
   {
     year: "2019",
-    title: "First Bridal",
-    description: "The first of many bridal styling commissions — a day that changed everything.",
+    title: "First Bridals",
+    description: "The first of many bridals styling commissions — a day that changed everything.",
   },
   {
     year: "2021",
@@ -79,7 +79,7 @@ export function AboutPageClient() {
               <div className="relative h-[600px] overflow-hidden">
                 <Image
                   src="/images/client-lace-front-smile.jpeg"
-                  alt="Dorcas Ade Akanbi — Founder of Hairxpresser.NG"
+                  alt="Dorcas Ade-Akanbi — Founder of Hairxpresser.NG"
                   fill
                   priority
                   className="object-cover object-top"
@@ -101,7 +101,7 @@ export function AboutPageClient() {
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.4 }}
               >
-                Dorcas Ade Akanbi
+                Dorcas Ade-Akanbi
               </motion.p>
 
               <h1
@@ -115,7 +115,7 @@ export function AboutPageClient() {
               <SectionDivider className="justify-start py-4" />
 
               <p className="text-onyx/70 leading-relaxed mb-4">
-                Dorcas Ade Akanbi grew up fascinated by beauty — the way a change
+                Dorcas Ade-Akanbi grew up fascinated by beauty — the way a change
                 in hairstyle could transform not just appearance, but confidence.
                 What began as a passion became a vocation, and eventually a thriving
                 business rooted in Tanke, Ilorin.
@@ -136,7 +136,7 @@ export function AboutPageClient() {
                   yourself — that&apos;s everything to me.&rdquo;
                 </p>
                 <footer className="text-gold text-sm font-medium mt-2">
-                  — Dorcas Ade Akanbi
+                  — Dorcas Ade-Akanbi
                 </footer>
               </blockquote>
 

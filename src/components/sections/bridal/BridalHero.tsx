@@ -10,13 +10,13 @@ export function BridalHero() {
   return (
     <section
       className="relative min-h-screen flex items-center overflow-hidden"
-      aria-label="Bridal services hero"
+      aria-label="Bridals services hero"
     >
       {/* Background */}
       <div className="absolute inset-0">
         <Image
           src="/images/client-updo-back.jpeg"
-          alt="Elegant bridal updo hairstyle at Hairxpresser.NG"
+          alt="Elegant bridals updo hairstyle at Hairxpresser.NG"
           fill
           priority
           className="object-cover"
@@ -33,7 +33,7 @@ export function BridalHero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.3 }}
         >
-          Bridal
+          Bridals
         </motion.p>
 
         <motion.h1
@@ -52,7 +52,7 @@ export function BridalHero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.7 }}
         >
-          Flawless, long-lasting bridal hair for your most important day.
+          Flawless, long-lasting bridals hair for your most important day.
           From trial session to your walk down the aisle — we&apos;re with you
           every step.
         </motion.p>

@@ -6,23 +6,23 @@ import { Footer } from "@/components/layout/Footer";
 import { WhatsAppButton } from "@/components/ui/WhatsAppButton";
 
 export const metadata: Metadata = {
-  title: "Hairxpresser.NG — Premium Hair Styling & Bridal | Ilorin",
+  title: "Hairxpresser.NG — Premium Hair Styling & Bridals | Ilorin",
   description:
-    "Hairxpresser.NG is a premium hair styling and bridal salon in Ilorin, Kwara State. Specializing in Pro Salon, Bridal Styling, Frontals & Wigs, Wig Revamping, and Training Academy. Book on WhatsApp today.",
+    "Hairxpresser.NG is a premium hair styling and bridal salon in Ilorin, Kwara State. Specializing in Pro Salon Services, Bridals Styling, Wig Installation, Wig Revamping, and Training Academy. Book on WhatsApp today.",
   keywords: [
     "hair salon Ilorin",
     "bridal hair Nigeria",
     "wig installation Kwara",
     "hair stylist Ilorin",
     "Hairxpresser NG",
-    "Dorcas Akanbi",
+    "Dorcas Ade-Akanbi",
     "Tanke Ilorin salon",
     "bridal styling Nigeria",
     "wig revamping Ilorin",
     "hair training academy Nigeria",
   ],
   openGraph: {
-    title: "Hairxpresser.NG — Premium Hair Styling & Bridal",
+    title: "Hairxpresser.NG — Premium Hair Styling & Bridals",
     description:
       "Premium hair styling, bridal services & training in Ilorin, Nigeria. Walk-ins welcome. Home service available.",
     url: "https://hairxpresser.ng",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Hairxpresser.NG — Premium Hair Styling & Bridal",
+    title: "Hairxpresser.NG — Premium Hair Styling & Bridals",
     description:
       "Premium hair styling, bridal services & training in Ilorin, Nigeria.",
   },

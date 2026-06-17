@@ -40,11 +40,11 @@ export function HeroSection() {
       {/* Background image */}
       <div className="absolute inset-0">
         <Image
-          src="/images/client-lace-front-smile.jpeg"
+          src="/images/hero.jpeg"
           alt="Client with lace front wig installation at Hairxpresser.NG salon"
           fill
           priority
-          className="object-cover object-center"
+          className="object-cover object-top"
           sizes="100vw"
         />
         {/* Dark gradient overlay */}
@@ -146,7 +146,7 @@ export function HeroSection() {
             animate="visible"
             transition={{ delay: 0.9 }}
           >
-            Bridal · Wigs · Revamps · Training — Ilorin, Nigeria
+            Bridals · Wigs · Revamps · Training — Ilorin, Nigeria
           </motion.p>
 
           {/* CTAs */}
@@ -161,10 +161,10 @@ export function HeroSection() {
               href={BRAND.whatsappLink}
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="Book your appointment on WhatsApp"
+              aria-label="Shop wigs on WhatsApp"
               className="inline-flex items-center justify-center gap-2 bg-gold text-onyx font-semibold px-8 py-4 hover:bg-gold-dark hover:shadow-[0_0_30px_rgba(232,178,42,0.4)] transition-all duration-300 hover:-translate-y-0.5"
             >
-              Book on WhatsApp
+              Shop Wigs
             </a>
             <Link
               href="/gallery"

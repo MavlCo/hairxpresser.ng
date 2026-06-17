@@ -25,7 +25,7 @@ const curriculum = [
   },
   {
     icon: Users,
-    title: "Wig Installation & Frontals",
+    title: "Wig Installation",
     description:
       "Full training on wig customization, frontal installation, and seamless blending.",
   },
@@ -43,7 +43,7 @@ const curriculum = [
   },
   {
     icon: Award,
-    title: "Bridal & Event Styling",
+    title: "Bridals & Event Styling",
     description:
       "Advanced styling for weddings and high-profile events — where precision matters most.",
   },

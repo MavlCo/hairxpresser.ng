@@ -6,11 +6,11 @@ const items = [
   { icon: MapPin, text: "Tanke, Ilorin" },
   { icon: Home, text: "Home Service & Travel" },
   { icon: Users, text: "Walk-ins Welcome" },
-  { icon: Heart, text: "Bridal Specialists" },
+  { icon: Heart, text: "Bridals Specialists" },
   { icon: MapPin, text: "Tanke, Ilorin" },
   { icon: Home, text: "Home Service & Travel" },
   { icon: Users, text: "Walk-ins Welcome" },
-  { icon: Heart, text: "Bridal Specialists" },
+  { icon: Heart, text: "Bridals Specialists" },
 ];
 
 export function TrustStrip() {
