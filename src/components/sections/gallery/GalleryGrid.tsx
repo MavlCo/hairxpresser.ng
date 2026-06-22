@@ -5,15 +5,17 @@ import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
 import Image from "next/image";
 import { GALLERY_IMAGES } from "@/lib/constants";
 
-type Category = "All" | "Bridals" | "Wig Installation" | "Wigs" | "Revamp" | "Styling";
+type Category = "All" | "Bridals" | "Hair Styling" | "Wig Installation" | "Wigs" | "Wig Construction" | "Wig Styling" | "Revamp";
 
 const categories: Category[] = [
   "All",
   "Bridals",
-  "Wig Installation",
-  "Wigs",
+  "Hair Styling",
   "Revamp",
-  "Styling",
+  "Wig Construction",
+  "Wig Installation",
+  "Wig Styling",
+  "Wigs",
 ];
 
 type GalleryGridProps = {

@@ -6,6 +6,21 @@ import Link from "next/link";
 import { ChevronDown } from "lucide-react";
 import { BRAND } from "@/lib/constants";
 
+const SERVICES = [
+  "Wigs",
+  "Wig Maintenance / Revamp",
+  "Wig Construction / Reconstruction",
+  "Glueless Wig Construction",
+  "Bulk Wig Construction",
+  "Lace Repair",
+  "Closure & Frontal Ventilation",
+  "Wig Styling",
+  "Wig Installation",
+  "Hairstyling",
+  "1-on-1 Hands-On Training",
+  "Bridals",
+];
+
 const containerVariants: Variants = {
   hidden: {},
   visible: {
@@ -151,7 +166,7 @@ export function HeroSection() {
 
           {/* CTAs */}
           <motion.div
-            className="flex flex-col sm:flex-row gap-4"
+            className="flex flex-col sm:flex-row gap-4 mb-10"
             variants={shouldReduceMotion ? {} : fadeUp}
             initial="hidden"
             animate="visible"
@@ -173,6 +188,27 @@ export function HeroSection() {
             >
               View Our Work
             </Link>
+          </motion.div>
+
+          {/* Services ticker */}
+          <motion.div
+            variants={shouldReduceMotion ? {} : fadeUp}
+            initial="hidden"
+            animate="visible"
+            transition={{ delay: 1.3 }}
+            className="relative overflow-hidden"
+          >
+            <div className="flex gap-3 animate-marquee whitespace-nowrap w-max">
+              {[...SERVICES, ...SERVICES].map((service, i) => (
+                <span
+                  key={i}
+                  className="inline-flex items-center gap-2 border border-gold/40 text-champagne text-xs tracking-widest uppercase px-4 py-2 shrink-0"
+                >
+                  <span className="w-1 h-1 rounded-full bg-gold inline-block" aria-hidden="true" />
+                  {service}
+                </span>
+              ))}
+            </div>
           </motion.div>
         </div>
       </div>

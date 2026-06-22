@@ -96,8 +96,8 @@ export function BeforeAfterSection() {
             {/* After image — full width, sits underneath */}
             <div className="absolute inset-0">
               <Image
-                src="/images/client-after-box-braids.jpeg"
-                alt="After: beautiful box braids styled at Hairxpresser.NG"
+                src="/images/wig-auburn-bob-bangs.jpeg"
+                alt="After: auburn bob with bangs wig revamped at Hairxpresser.NG"
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw, 768px"
@@ -113,8 +113,8 @@ export function BeforeAfterSection() {
               style={{ clipPath: `inset(0 ${100 - sliderPos}% 0 0)` }}
             >
               <Image
-                src="/images/client-before-natural-afro.jpeg"
-                alt="Before: natural afro before styling transformation"
+                src="/images/wig-auburn-textured-bob.jpeg"
+                alt="Before: auburn textured bob wig before revamp"
                 fill
                 className="object-cover"
                 sizes="(max-width: 768px) 100vw, 768px"

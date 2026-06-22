@@ -9,7 +9,7 @@ import { DeliveryModes } from "@/components/sections/services/DeliveryModes";
 export const metadata: Metadata = {
   title: "Services — Hairxpresser.NG",
   description:
-    "Explore Hairxpresser.NG's full range of services: Wigs, Wig Maintenance & Revamp, Wig Construction, Lace Repair & Ventilation, Wig Styling & Installation, Hairstyling, and One-on-One Training in Ilorin, Nigeria.",
+    "Explore Hairxpresser.NG's full range of services: Wigs, Wig Maintenance & Revamp, Wig Construction, Lace Repair & Ventilation, Wig Styling, Wig Installation, Hairstyling, and One-on-One Training in Ilorin, Nigeria.",
 };
 
 export default function ServicesPage() {
