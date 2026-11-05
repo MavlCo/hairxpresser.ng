@@ -52,7 +52,7 @@ export function HeroSection() {
       className="relative h-screen min-h-[600px] flex items-center overflow-hidden"
       aria-label="Hero — Hairxpresser.NG"
     >
-      {/* Background image */}
+      {/* Image fallback is retained; an archival copy is also in public/images/archive. */}
       <div className="absolute inset-0">
         <Image
           src="/images/hero.jpeg"
@@ -62,6 +62,34 @@ export function HeroSection() {
           className="object-cover object-top"
           sizes="100vw"
         />
+        {!shouldReduceMotion && (
+          <>
+            <video
+              className="absolute inset-0 hidden h-full w-full object-cover md:block"
+              autoPlay
+              muted
+              loop
+              playsInline
+              preload="metadata"
+              poster="/images/hero.jpeg"
+              aria-hidden="true"
+            >
+              <source src="/videos/hero-desktop.mp4" type="video/mp4" />
+            </video>
+            <video
+              className="absolute inset-0 block h-full w-full object-cover md:hidden"
+              autoPlay
+              muted
+              loop
+              playsInline
+              preload="metadata"
+              poster="/images/hero.jpeg"
+              aria-hidden="true"
+            >
+              <source src="/videos/hero-mobile.mp4" type="video/mp4" />
+            </video>
+          </>
+        )}
         {/* Dark gradient overlay */}
         <div className="absolute inset-0 bg-gradient-to-r from-onyx/90 via-charcoal/80 to-espresso/60" />
         <div className="absolute inset-0 bg-gradient-to-t from-onyx/50 via-transparent to-transparent" />
