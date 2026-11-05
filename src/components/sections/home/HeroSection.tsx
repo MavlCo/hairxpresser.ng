@@ -1,7 +1,6 @@
 "use client";
 
 import { motion, useReducedMotion, type Variants } from "framer-motion";
-import Image from "next/image";
 import Link from "next/link";
 import { ChevronDown } from "lucide-react";
 import { BRAND } from "@/lib/constants";
@@ -52,16 +51,8 @@ export function HeroSection() {
       className="relative h-screen min-h-[600px] flex items-center overflow-hidden"
       aria-label="Hero — Hairxpresser.NG"
     >
-      {/* Image fallback is retained; an archival copy is also in public/images/archive. */}
-      <div className="absolute inset-0">
-        <Image
-          src="/images/hero.jpeg"
-          alt="Client with lace front wig installation at Hairxpresser.NG salon"
-          fill
-          priority
-          className="object-cover object-top"
-          sizes="100vw"
-        />
+      {/* Videos load over the solid dark brand background. The original photograph is archived. */}
+      <div className="absolute inset-0 bg-onyx">
         {!shouldReduceMotion && (
           <>
             <video
@@ -71,7 +62,6 @@ export function HeroSection() {
               loop
               playsInline
               preload="metadata"
-              poster="/images/hero.jpeg"
               aria-hidden="true"
             >
               <source src="/videos/hero-desktop.mp4" type="video/mp4" />
@@ -83,7 +73,6 @@ export function HeroSection() {
               loop
               playsInline
               preload="metadata"
-              poster="/images/hero.jpeg"
               aria-hidden="true"
             >
               <source src="/videos/hero-mobile.mp4" type="video/mp4" />
